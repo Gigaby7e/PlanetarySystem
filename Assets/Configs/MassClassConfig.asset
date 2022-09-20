@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16768feb09271da48b69279a086da7b5, type: 3}
+  m_Name: MassClassConfig
+  m_EditorClassIdentifier: 
+  MassConfigs:
+  - MassClass: 0
+    Radius:
+      Min: 0
+      Max: 0.03
+    Mass:
+      Min: 0
+      Max: 0.00001
+  - MassClass: 1
+    Radius:
+      Min: 0.03
+      Max: 0.7
+    Mass:
+      Min: 0.00001
+      Max: 0.1
+  - MassClass: 2
+    Radius:
+      Min: 0.5
+      Max: 1.2
+    Mass:
+      Min: 0.1
+      Max: 0.5
+  - MassClass: 3
+    Radius:
+      Min: 0.8
+      Max: 1.9
+    Mass:
+      Min: 0.5
+      Max: 2
+  - MassClass: 4
+    Radius:
+      Min: 1.3
+      Max: 3.3
+    Mass:
+      Min: 2
+      Max: 10
+  - MassClass: 5
+    Radius:
+      Min: 2.1
+      Max: 5.7
+    Mass:
+      Min: 10
+      Max: 50
+  - MassClass: 6
+    Radius:
+      Min: 3.5
+      Max: 27
+    Mass:
+      Min: 50
+      Max: 5000
